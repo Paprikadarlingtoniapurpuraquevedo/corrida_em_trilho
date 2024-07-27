@@ -6,7 +6,14 @@
     <title>A modalidade</title>
     <link rel="stylesheet" href="css/modalidade.css">
 </head>
-<body>
+<script>
+    function disableRightClick() { 
+    alert("Temos pena!");
+    return false; 
+    } 
+</script>
+
+<body oncontextmenu="return disableRightClick();">
     <h1>Corrida em Trilho</h1>
     <h2>A modalidade</h2>
 
@@ -15,7 +22,7 @@
             <li><a href="deveres.html"><b>Deveres do atleta</b></a></li>
             <li><a href="fotografias.html"><b>Fotografias</b></a></li>
             <li><a href="material.html"><b>Material indispensável</b></a></li>
-            <li><a href="index.html"><b>Página principal</b></a></li>
+            <li><a href="index.html"><b>Página inicial</b></a></li>
         </div>
 
         <div id="col-1">

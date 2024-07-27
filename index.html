@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Página inicial</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<script>
+    function disableRightClick() { 
+    alert("Temos pena!");
+    return false; 
+    } 
+</script>
+
+<body oncontextmenu="return disableRightClick();">
     <h1>Corrida em Trilho</h1>
 
     <img src="images/kisspng-trail-running-computer-icons-sport-trail-running-5b17b3902d6384.5211839715282799521859.png" alt="Trail running computer icon.">

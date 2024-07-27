@@ -6,7 +6,14 @@
     <title>Fotografias</title>
     <link rel="stylesheet" href="css/fotografias.css">
 </head>
-<body>
+<script>
+    function disableRightClick() { 
+    alert("Temos pena!");
+    return false; 
+    } 
+</script>
+
+<body oncontextmenu="return disableRightClick();">
     <h1>Corrida em Trilho</h1>
     <h2>Fotografias</h2>
 
@@ -15,7 +22,7 @@
             <li><a href="modalidade.html"><b>A modalidade</b></a></li>
             <li><a href="deveres.html"><b>Deveres do atleta</b></a></li>
             <li><a href="material.html"><b>Material indispensável</b></a></li>
-            <li><a href="index.html"><b>Página principal</b></a></li>
+            <li><a href="index.html"><b>Página inicial</b></a></li>
         </div>
 
         <div id="col-1">
