@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotografias</title>
     <link rel="stylesheet" href="css/fotografias.css">
+    <script src="scripts/fotografias.js"></script>
 </head>
 <script>
     function disableRightClick() { 
@@ -17,12 +18,52 @@
     <h1>Corrida em Trilho</h1>
     <h2>Fotografias</h2>
 
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/450168221_1148464346243180_4196314091673562685_n.jpg" alt="Male athlete participating in the 6th edition of the Trail Boneca Douro." style="width:30%">
+          <div class="text">Participante masculino da edição de 2023 do Trail Boneca Douro, fotógrafo não identificado.</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img2.jpg" alt="" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img3.jpg" alt="" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="img1.jpg" alt="" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+    <p></p>
+
     <div class="footer">
         <div id="col-0">
-            <li><a href="modalidade.html"><b>A modalidade</b></a></li>
-            <li><a href="deveres.html"><b>Deveres do atleta</b></a></li>
-            <li><a href="material.html"><b>Material indispensável</b></a></li>
-            <li><a href="index.html"><b>Página inicial</b></a></li>
+            <li><a href="modalidade.html"><b>A Modalidade</b></a></li>
+            <li><a href="deveres.html"><b>Deveres do Atleta</b></a></li>
+            <li><a href="material.html"><b>Material Indispensável</b></a></li>
+            <li><a href="index.html"><b>Página Inicial</b></a></li>
         </div>
 
         <div id="col-1">
