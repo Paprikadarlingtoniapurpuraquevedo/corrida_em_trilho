@@ -23,6 +23,10 @@ h2 {
     text-align: center; 
 }
 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .footer {
     position: fixed;
     list-style-type: none;
