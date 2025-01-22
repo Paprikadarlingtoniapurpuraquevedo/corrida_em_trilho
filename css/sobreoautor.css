@@ -26,6 +26,8 @@
     img {
         float: left;
         margin-left: 200px;
+        max-height: 30%;
+        max-width: 30%;
     }
     
     p {
